@@ -15,6 +15,5 @@ await client.end()
 
 const app = express()
 const port = 3000;
-app.get('/',(req,res)=>res.send("Welcome " + usuario1 ))
-//app.listen(port,() => {console.log(`listening on http://localhost:${port}`)})
+app.get('/',(req,res)=>res.send("Usuario1 " + usuario1 ))
 export default app;
